@@ -1,0 +1,57 @@
+
+.boton{
+    border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+.boton:hover{
+    background-color: green
+}
+
+body{
+    transition: background-color 0,3s, color 0,3s;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.lista {
+    background-color: yellowgreen;
+    list-style-position: inside;
+    padding: 1rem;
+    max-width: 24rem;
+    border-radius: 0.8rem;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1);
+    color: black;
+    flex-grow: 1;
+  }
+
+.lista .form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lista .form .form-input {
+    border: 0;
+    padding: 0.5rem;
+    margin-block: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 100%;
+  }
+  
+  .lista .form .form-submit {
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: background-color 0.1s, color 0.1s;
+  }
+  .lista .form .form-submit:hover {
+    background-color: #1b0737;
+    color: white;
+  }

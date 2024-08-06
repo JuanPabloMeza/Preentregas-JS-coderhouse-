@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Platita</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
+
 <body>
     <h1>Calculadora de pesos a dinero extranjero</h1>
-    
+    <div>
+        <button id="color-mode" class="boton">Cambiar a dark mode</button>
+    </div>
+    <div class="listasPlata">
+        
+        <ul class="lista" id="agregar">
+            <h4>Calcula Dolares</h4>
+            <form action="" id="agregar-form" class="form">
+                <input type="text" id="agregar-input" class="form-input">
+                <input type="submit" id="agregar-submit" class="form-submit" value="Agregar">
+            </form>
+        </ul>
+       
+        <ul class="lista" id="agregar-euro">
+            <h4>Calcula Euros</h4>
+            <form action="" id="form-euro" class="form">
+                <input type="text" id="input-euro" class="form-input">
+                <input type="submit" id="submit-euro" class="form-submit" value="Agregar">
+            </form>
+        </ul>
+        
+        <ul class="lista" id="agregar-real">
+            <h4>Calcula reales</h4>
+            <form action="" id="form-real" class="form">
+                <input type="text" id="input-real" class="form-input">
+                <input type="submit" id="submit-real" class="form-submit" value="Agregar">
+            </form>
+        </ul>
+    </div>
+
     <script src="./js/main.js"></script>
 </body>
+
 </html>
